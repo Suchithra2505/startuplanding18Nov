@@ -9,12 +9,13 @@ font-weight: 700;
 line-height: normal;
 
 }
+
 #startup>span{
     color: #000;
 font-family: Montserrat;
 font-size: 32px;
 font-style: normal;
-font-weight: 700;
+font-weight: 800;
 line-height: normal;
 text-decoration-line: underline;
 }
@@ -33,10 +34,11 @@ li{
 font-family: Montserrat;
 font-size: 28px;
 font-style: normal;
-font-weight: 400;
+font-weight: 700;
 line-height: normal;
 list-style-type: none;
 padding-inline: 20px;
+font-size:x-large ;
 }
 body{
     background-color: #000;
@@ -62,6 +64,10 @@ img{
     width: 697px;
 height: 482px;
 flex-shrink: 0;
+}
+#login{
+    margin-top: 25px;
+    margin-left: 8%;
 }
 #intro{
     display: flex;
@@ -173,8 +179,67 @@ padding: 15px 32px;
   text-decoration: none;
   display: inline-block;
   margin-left: 40%;
+  opacity:.6;
 
   }
   input:focus {
     outline: none !important;
   }
+  .btn:hover {opacity: 1}
+  table{
+    width:1582px;
+height: 755px;
+flex-shrink: 0;
+border: 2px solid #FCAF02;
+margin-top:10%;
+color:#FCAF02;
+color: #FCAF02;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30%;
+text-align: left;
+box-shadow: 9px 9px 10px #FCAF02;
+border-collapse: collapse;
+
+
+  }
+  th{
+    
+    
+    padding-left:30px;
+  }
+  th{padding-top: 25px;
+padding-bottom: 25px;}
+
+  tfoot{
+    width: 1582px;
+height: 91px;
+flex-shrink: 0;
+background: #FCAF02;
+color:#000;
+
+
+  }
+  th{
+    border: 2px solid #FCAF02;
+  }
+  
+
+
+  tr td:first-child{text-align: center;}
+  tr:hover {background-color: coral;
+color:antiquewhite}
+  @media screen and (max-width:480px) {
+  nav{
+    flex-direction: column;
+    position:relative;
+    margin-bottom: 0px;
+  }
+  table,td, tr { 
+    display: block; 
+    
+}
+}
